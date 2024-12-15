@@ -10,7 +10,7 @@ However, the new web interface is bad. There's no upload progress indicator. Whe
 
 ## Usage
 
-Requires [Node](https://nodejs.org) 16+ or [Deno](https://deno.com).
+Requires [Node](https://nodejs.org) 18+ or [Deno](https://deno.com).
 
 ```sh
 # With NPX

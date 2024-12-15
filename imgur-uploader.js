@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 // @andrewsuzuki/imgur-uploader
 // Simple CLI tool to upload local images to Imgur. Supports albums and linking to an account.
 // Copyright (c) 2024 Andrew Suzuki (https://andrewsuzuki.com)
@@ -300,7 +301,7 @@ async function main(args) {
       }
     }
 
-    console.log("Done");
+    console.log("\nDone");
   } catch (error) {
     console.error(`Error: ${error.message}`);
     process.exit(1);

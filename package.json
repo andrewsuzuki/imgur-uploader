@@ -4,12 +4,15 @@
   "license": "MIT",
   "version": "0.1.1",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "type": "module",
   "main": "imgur-uploader.js",
   "bin": {
     "imgur-uploader": "imgur-uploader.js"
+  },
+  "scripts": {
+    "test": "node --test"
   },
   "publishConfig": {
     "access": "public"
