@@ -1,0 +1,31 @@
+{
+  "name": "@andrewsuzuki/imgur-uploader",
+  "description": "Simple CLI tool for uploading local images to Imgur. Supports albums and linking to an account.",
+  "license": "MIT",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "main": "imgur-uploader.js",
+  "bin": {
+    "@andrewsuzuki/imgur-uploader": "./imgur-uploader.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "imgur",
+    "bulk",
+    "image",
+    "album",
+    "upload",
+    "script",
+    "cli",
+    "tool"
+  ],
+  "author": {
+    "name": "Andrew Suzuki",
+    "url": "https://andrewsuzuki.com"
+  }
+}
