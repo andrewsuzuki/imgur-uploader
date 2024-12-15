@@ -1,4 +1,4 @@
-# @andrewsuzuki/imgur-uploader
+# imgur-uploader
 
 Simple CLI tool for uploading local images to Imgur.
 - Add images to a new or existing album (optional)
@@ -15,22 +15,22 @@ Requires [Node](https://nodejs.org) 18+ or [Deno](https://deno.com).
 ```sh
 # With NPX
 # Upload image (anonymous)
-npx @andrewsuzuki/imgur-uploader --client-id CLIENT_ID foo.jpg
+npx github:andrewsuzuki/imgur-uploader --client-id CLIENT_ID foo.jpg
 # Upload image (account)
-npx @andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN foo.jpg
+npx github:andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN foo.jpg
 # Upload multiple images, then add them to a new album (account)
-npx @andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN --create-album path/to/images/*.jpg
+npx github:andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN --create-album path/to/images/*.jpg
 # Upload multiple images, then add them to a new album, with a title (account)
-npx @andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN --create-album --album-title "My Photo Album" path/to/images/*.jpg
+npx github:andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN --create-album --album-title "My Photo Album" path/to/images/*.jpg
 # Upload multiple images, then add them to an existing album (account only)
-npx @andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN --update-album ALBUM_ID path/to/images/*.jpg
+npx github:andrewsuzuki/imgur-uploader --access-token ACCESS_TOKEN --update-album ALBUM_ID path/to/images/*.jpg
 
 # With global npm install
-npm install -g @andrewsuzuki/imgur-uploader
+npm install -g github:andrewsuzuki/imgur-uploader
 imgur-uploader ...
 
 # With Deno
-deno run --allow-read --allow-net npm:@andrewsuzuki/imgur-uploader ...
+deno run --allow-read --allow-net https://raw.githubusercontent.com/andrewsuzuki/imgur-uploader/refs/heads/main/imgur-uploader.js ...
 ```
 
 ### Authorization
