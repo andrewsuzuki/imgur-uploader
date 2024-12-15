@@ -9,7 +9,7 @@
   "type": "module",
   "main": "imgur-uploader.js",
   "bin": {
-    "@andrewsuzuki/imgur-uploader": "./imgur-uploader.js"
+    "imgur-uploader": "imgur-uploader.js"
   },
   "publishConfig": {
     "access": "public"
